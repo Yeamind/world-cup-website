@@ -83,10 +83,24 @@ footer{
   padding-top: 150px;
   font-size: 40px;
   font-weight: 600;
- 
+
 }
+
 hr{
   width: 1120px;
   height: 0;
+  color: #FFFFFF;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  
 
+}
+.social p{
+  color: #fff;
+  padding-left: 30px;
+  padding-right:10px;
 }
