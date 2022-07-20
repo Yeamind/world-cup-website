@@ -1,13 +1,12 @@
 /* Google Popping font  */
-
+ 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,700&display=swap');
 
 
 body{
   background: #FFFFFF;
-  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Poppins', sans-serif;
 }
-
 .header{
   background-color:#D6DBDF;
   width: 1321px;
@@ -23,7 +22,7 @@ body{
 }
 
 .header-title{
-  font-size: 80px;
+  font-size: 70px;
   color: #6C3483;
 }
 .content{
@@ -53,15 +52,39 @@ body{
 }
 
 .content-1{
-  padding-left: 5px;
+  border: 1px dotted orange;
+  border-radius: 10px;
+  margin: 10px;   
+  
+}
+.content-1 .flag img{
+  width: 93.04px;
+  height: 56.18px;
+}
+
+.flag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.flag p{
+  padding: 10px;
+
+}
+.description{
+  text-align: center;
+  margin-bottom: 50px;
 }
 .text-con{
   padding: 10px;
 }
+
 .icon{
   display: flex;
+  
 }
-
 .icon span{
   margin-left: 10px;
   margin-right: 30px;
@@ -81,6 +104,7 @@ footer{
   padding-top: 150px;
   font-size: 40px;
   font-weight: 600;
+  margin-top: 20px;
 }
 
 hr{
@@ -94,13 +118,12 @@ hr{
   display: flex;
   justify-content: center;
   margin-bottom: 0px;
-
-
 }
+
 .social p{
   color: #fff;
   padding-left: 30px;
   padding-right:10px;
   padding-bottom: 130px;
-  
 }
+
