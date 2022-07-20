@@ -70,7 +70,7 @@ body{
 footer{
   /* width: 1600px;
   height: 444px; */
-  height: 100vh;
+  
   background-color:#161616;
 }
 
@@ -96,6 +96,7 @@ hr{
 .social{
   display: flex;
   justify-content: center;
+  margin-bottom: 0px;
   
 
 }
@@ -103,4 +104,6 @@ hr{
   color: #fff;
   padding-left: 30px;
   padding-right:10px;
+  padding-bottom: 130px;
+  
 }
